@@ -229,7 +229,7 @@ p {
 .reason-content {
   display: flex;
   gap: 16px;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
 
 .reason-left-card {

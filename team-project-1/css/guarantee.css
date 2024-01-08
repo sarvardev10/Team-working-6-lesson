@@ -15,15 +15,19 @@
   padding: 0 40px;
   max-width: 1280px;
 }
+.section1 h1 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
 h1 {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   color: var(--Text-Black, #161616);
   font-family: Golos;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: 48px;
-  padding: 100px 0 60px 0;
+  /* padding: 100px 0 60px 0; */
 }
 h3 {
   color: var(--Text-Black, #161616);
@@ -70,7 +74,7 @@ p {
   }
   h1 {
     padding-bottom: 40px;
-    padding-top: 150px;
+    padding-top: 150px !important;
   }
 }
 
@@ -85,14 +89,14 @@ p {
     width: 60% !important;
   }
   h1 {
-    padding-top: 150px;
+    padding-top: 150px !important;
   }
 }
 @media (max-width: 320px) {
   h1 {
     padding-bottom: 32px;
     font-size: 24px;
-    padding-top: 150px;
+    padding-top: 150px !important;
   }
   h3 {
     padding-bottom: 12px;

@@ -31,6 +31,7 @@
   background-color: #f4f5f8;
   height: 52px;
   flex-shrink: 0;
+  position: fixed;
 }
 .content-row {
   display: flex;

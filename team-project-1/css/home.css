@@ -708,7 +708,7 @@ form {
     padding: 0px 20px;
   }
   .sticky {
-    width: 89.8%;
+    width: 95%;
   }
   .bottom-header-content {
     flex-direction: column;
@@ -789,7 +789,7 @@ form {
 /* MEDIA QUERIES */
 @media (max-width: 666px) {
   .sticky {
-    width: 86.8%;
+    width: 94%;
   }
   #navbar-responsive {
     position: fixed;
@@ -911,7 +911,7 @@ form {
 }
 @media (max-width: 540px) {
   .sticky {
-    width: 90%;
+    width: 93%;
   }
   .prew-next {
     margin-right: 38px;
@@ -1065,11 +1065,25 @@ form {
     margin-right: 10px;
   }
 }
+@media (max-width: 420px) {
+  .sticky {
+    width: 91%;
+  }
+}
+
 @media (max-width: 350px) {
+  .sticky {
+    width: 89%;
+  }
   .header-image img {
     width: 200px;
   }
   .logo img {
     width: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .sticky {
+    width: 87.6%;
   }
 }

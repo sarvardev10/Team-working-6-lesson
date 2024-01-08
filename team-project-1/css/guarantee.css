@@ -1,0 +1,114 @@
+:root {
+  --Text-Black: #161616;
+}
+@font-face {
+  font-family: Golos;
+  src: url(../fonts/GolosText-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1280px;
+}
+.section1 h1 {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+h1 {
+  /* padding-top: 40px; */
+  color: var(--Text-Black, #161616);
+  font-family: Golos;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  /* padding: 100px 0 60px 0; */
+}
+h3 {
+  color: var(--Text-Black, #161616);
+  /* font-feature-settings: "liga" off; */
+  font-family: Golos;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.24px;
+  max-width: 50%;
+  padding-bottom: 24px;
+}
+p {
+  color: var(--Text-Black, #161616);
+  font-family: Golos;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* max-width: 50%; */
+  padding-bottom: 60px;
+}
+.guarantee-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.paragraph {
+  display: flex;
+  flex-direction: column;
+}
+.par p {
+  padding-bottom: 24px !important;
+}
+
+@media (max-width: 1024px) {
+  p {
+    padding-bottom: 24px;
+    width: 50%;
+  }
+  .par p {
+    padding-bottom: 24px;
+  }
+  h1 {
+    padding-bottom: 40px;
+    padding-top: 150px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 72px;
+  }
+  p {
+    width: 60% !important;
+  }
+  h3 {
+    width: 60% !important;
+  }
+  h1 {
+    padding-top: 150px !important;
+  }
+}
+@media (max-width: 320px) {
+  h1 {
+    padding-bottom: 32px;
+    font-size: 24px;
+    padding-top: 150px !important;
+  }
+  h3 {
+    padding-bottom: 12px;
+    font-size: 18px;
+    width: 90% !important;
+  }
+  p {
+    padding-bottom: 32px;
+    font-size: 14px;
+    width: 90% !important;
+  }
+  .container {
+    padding: 0 16px;
+  }
+}

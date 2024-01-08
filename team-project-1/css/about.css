@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.head-text h1 {
+  color: var(--Text-Black, #161616);
+  /* Desktop/Headline/H1 */
+  font-family: "Golos Text", sans-serif;
+  padding-top: 60px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+.head-text p {
+  width: 592px;
+  color: var(--Text-Black, #161616);
+
+  /* Desktop/Body/M */
+  font-family: "Golos Text", sans-serif;
+  padding-top: 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.line {
+  width: 1180px;
+  height: 1px;
+  margin-top: 100px;
+  background: #e9e9e9;
+}
+.abouty {
+  margin-left: 40px;
+}
+.static-card {
+  width: 1199px;
+  height: 200px;
+  flex-shrink: 0;
+}
+.static-card {
+  padding-top: 40px;
+  display: flex;
+  gap: 16px;
+}
+.blok2 {
+  display: flex;
+  gap: 16px;
+}
+.blok1 .blok-p1 {
+  color: var(--text-gray-light-bg, #757575);
+
+  /* Desktop/Body/M */
+  font-family: "Golos Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.blok1 h1 {
+  color: var(--Text-Black, #161616);
+
+  /* Desktop/Headline/H1 */
+  font-family: "Golos Text", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+.blok1 .blok-p2 {
+  color: var(--Text-Black, #161616);
+
+  /* Desktop/Body/M */
+  font-family: "Golos Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.cards {
+  flex-shrink: 0;
+  padding-top: 120px;
+}
+.card-sec1 {
+  display: flex;
+  gap: 16px;
+}
+.card-logos {
+  display: flex;
+  gap: 16px;
+  margin-top: -16px;
+}
+.card-main {
+  width: 592px;
+  height: 390px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--Background-Gray, #f4f5f8);
+}
+.card {
+  width: 187px;
+  height: 187px;
+  flex-shrink: 0;
+  margin-top: 16px;
+  border-radius: 14.886px;
+  background: var(--Background-Gray, #f4f5f8);
+}
+.card img {
+  width: px;
+  flex-shrink: 0;
+}
+.card .iff {
+  width: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.card .btm {
+  width: 185px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+.card .mkm {
+  padding-left: 20px;
+  padding-top: px;
+  width: 200px;
+}
+.card .umz {
+  width: 200px;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.card .sport {
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.card .last {
+  width: 210px;
+  padding-left: 20px;
+  padding-top: 55px;
+}
+.card-main h1 {
+  width: 512px;
+  color: var(--Text-Black, #161616);
+
+  /* Desktop/Headline/H1 */
+  font-family: "Golos Text", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+.card-main p {
+  width: 512px;
+  color: var(--text-gray-light-bg, #757575);
+
+  /* Desktop/Body/M */
+  font-family: "Golos Text", sans-serif;
+  padding-top: 100px;
+  padding-left: 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.jean-text p {
+  width: 491px;
+}
+.text-lss h1 {
+  width: 795px;
+  padding-top: 120px;
+  color: var(--Text-Black, #161616);
+
+  /* Desktop/Headline/H1 */
+  font-family: "Golos Text", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+.main-lss {
+  display: flex;
+  padding-top: 60px;
+  gap: 117px;
+  padding-bottom: 120px;
+}
+.lss-image img {
+  width: 491px;
+  height: 530px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>),
+    lightgray 0px -88.205px / 100% 130.569% no-repeat;
+}
+.jean-text {
+  padding-top: 40px;
+}
+.jean-text p {
+  padding-top: 24px;
+}
+.jean-text2 {
+  padding-top: 60px;
+}
+.card img {
+  padding: 32px;
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    width: 1024px;
+  }
+  .static-card {
+    width: 944px;
+    height: 220px;
+    flex-shrink: 0;
+  }
+  .blok1 {
+    width: 280px;
+  }
+
+  .cards {
+    width: 945px;
+  }
+  .card-sec1 {
+    display: block;
+  }
+
+  .card-main {
+    width: 943px;
+    height: 328px;
+    flex-shrink: 0;
+  }
+
+  .card-main p {
+    padding-top: 40px;
+  }
+
+  .card-logo {
+    gap: 16px;
+    flex-shrink: 0;
+    display: block;
+  }
+
+  .card-logos {
+    display: flex;
+    gap: 16px;
+    padding-top: 16px;
+  }
+
+  .card {
+    width: 304px;
+    height: 187px;
+    flex-shrink: 0;
+    border-radius: 14.886px;
+    background: var(--Background-Gray, #f4f5f8);
+    margin-top: 16px;
+  }
+
+  .card img {
+    padding-left: 90px;
+  }
+
+  .main-lss {
+    width: 941px;
+    height: 533px;
+    flex-shrink: 0;
+    gap: 16px;
+  }
+  .jean-text p {
+    width: 420px;
+  }
+  .lss-image img {
+    width: 464px;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 768px;
+  }
+  .abouty {
+    width: 768px;
+  }
+  .head-text p {
+    width: 463px;
+  }
+  .static-card {
+    width: 768px;
+    height: 400px;
+  }
+  .blok1 {
+    width: 280px;
+  }
+  .blok2 {
+    display: block;
+    gap: 40px;
+  }
+  .blok22 {
+    margin-left: -300px;
+    padding-top: 40px;
+  }
+  .blok22 p {
+    padding-top: 40px;
+  }
+  .card-main {
+    width: 624px;
+    flex-shrink: 0;
+  }
+  .card-main p {
+    margin-left: 12px;
+  }
+  .card-logos {
+    width: 624px;
+    height: 593px;
+    flex-shrink: 0;
+    display: block;
+  }
+  .card-logo {
+    display: flex;
+  }
+  .text-lss h1 {
+    width: 624px;
+  }
+  .main-lss {
+    display: block;
+  }
+  .lss-image img {
+    width: 1px;
+    height: 1px;
+  }
+  .jean-text {
+    width: 464px;
+    height: 460px;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    width: 320px;
+  }
+  .head-text h1 {
+    width: 66px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .head-text p {
+    width: 288px;
+    color: var(--Text-Black, #161616);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+  }
+  .line {
+    width: 288px;
+    height: 1px;
+  }
+  .static-card {
+    display: block;
+  }
+  .static-card p {
+    padding-top: 24px;
+  }
+  .blok2 {
+    display: block;
+  }
+  .blok22 {
+    margin-left: 5px;
+    padding-top: 0px;
+  }
+  .blok1 p {
+    width: 288px;
+  }
+  .cards {
+    width: 288px;
+    margin-top: 180px;
+    flex-shrink: 0;
+  }
+  .card-main {
+    width: 288px;
+    align-items: center;
+  }
+  .card-main h1 {
+    width: 264px;
+    color: var(--Text-Black, #161616);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+  }
+  .card-main p {
+    width: 264px;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: var(--text-gray-light-bg, #757575);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+  }
+  .card-logos {
+    width: 288px;
+  }
+  .card {
+    width: 135px;
+    height: 110px;
+  }
+  .card img {
+    width: 100px;
+    padding-left: 35px;
+    padding-top: 20px;
+  }
+  .text-lss h1 {
+    width: 288px;
+    color: var(--Text-Black, #161616);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -200px;
+    line-height: 28px; /* 116.667% */
+  }
+  .jean-text p {
+    width: 288px;
+    color: var(--Text-Black, #161616);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+  }
+  .jean-text h1 {
+    font-size: 18px;
+  }
+  .card .iff {
+    width: 140px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  .card .btm {
+    width: 130px;
+    padding-top: 15px;
+    padding-left: 25px;
+  }
+  .card .mkm {
+    padding-left: 25px;
+    padding-top: px;
+    width: 140px;
+  }
+  .card .umz {
+    width: 150px;
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+  .card .sport {
+    width: 150px;
+    padding-left: 15px;
+    padding-top: 1px;
+  }
+  .card .last {
+    width: 160px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+}
+/*////Ergashev Yusufjon/////*/

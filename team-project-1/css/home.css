@@ -572,6 +572,10 @@ form {
   margin-right: 9px;
   cursor: pointer;
 }
+input {
+  color: #fff !important;
+  font-size: 18px;
+}
 /* RESPONSIVE //////////////////////////////////////////// */
 @media (max-width: 1280px) {
   .sticky {
